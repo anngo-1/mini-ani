@@ -1,0 +1,5 @@
+services:
+  embedder-api:
+    build: embedder-api
+    ports:
+      - "8000:5000"
